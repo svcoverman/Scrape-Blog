@@ -1,2 +1,2 @@
 # Scrape-Blog
-Get the latest news all in one place.
+Get the latest Metal news all in one place.
