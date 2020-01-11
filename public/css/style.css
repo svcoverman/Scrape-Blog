@@ -1,0 +1,21 @@
+.comments_list {
+	overflow: scroll;
+	height: 200px;
+  };
+
+.container {
+    position: relative;
+    background: #fff url("https://images.squarespace-cdn.com/content/v1/5893f98a9f74564c0a5a11a5/1486321842533-TWW2S461S1TLAMGBILCQ/ke17ZwdGBToddI8pDm48kDu-OvKe9-yMBj32JSWknrt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZNNUmsixw3l8iPy3vgDTPMwfMBbaTJA8uE3oWp8JUwqzkQXHaRS3Yhvu0vV6Jt1AA/IMG_261462.jpg?format=2500w");  
+    width: 100%;
+    height: 0%;
+    background-size: cover;
+    overflow: hidden;
+};
+
+.btn {
+	background-image: url("https://cdn2.iconfinder.com/data/icons/social-productivity-line-art-2/128/reply-512.png");
+}
+
+.comment {
+	font-family:  "Roundhand, cursive";
+}

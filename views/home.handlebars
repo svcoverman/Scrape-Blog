@@ -1,0 +1,25 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="header">
+        <h1>Metal News</h1>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-lg-6 offset-lg-3">
+        <a href="/articles"class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Articles</a>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-lg-6 offset-lg-3">
+        <ul class="collection">
+            {{#each articles}}
+                {{> list-items/post}}  
+            {{/each}}
+        </ul>
+      </div>
+    </div>  
+   </div>    
+  </div>
+</body>

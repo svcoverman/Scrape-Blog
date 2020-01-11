@@ -2,9 +2,10 @@
   "name": "scrape-blog",
   "version": "1.0.0",
   "description": "Get the latest news all in one place.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node server.js",
     "start": "node server.js"
   },
   "repository": {
@@ -22,6 +23,10 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "mongoose": "^5.8.1"
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
